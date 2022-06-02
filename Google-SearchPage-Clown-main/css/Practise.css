@@ -1,0 +1,187 @@
+body {
+  background: #202124;
+  margin: 8px 0 0 0;
+}
+
+p {
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+h1 {
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+a {
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+/*----Top Container----*/
+.top-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-container a {
+  font-size: 13px;
+  font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+  color: white;
+  padding: 2px 8px;
+}
+
+.top-container a:link {
+  text-decoration: none;
+}
+
+.top-container a:hover {
+  text-decoration: underline;
+}
+
+.top-container a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.links {
+  padding: 10px 4px;
+}
+
+.signin input {
+  width: 90px;
+  height: 35px;
+  background-color: #8ab4f8;
+  border-radius: 3px;
+  margin: 8px 15px;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  border: 0px solid;
+}
+
+.signin input:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.googleapps {
+  padding: 16px 5px 15px 6px;
+  color: white;
+}
+
+/*----Top Container----*/
+/*----Middle Container--*/
+.center, .Google, .Search {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Google {
+  margin-top: 100px;
+}
+
+.Search {
+  border: 1px solid grey;
+  border-radius: 30px;
+  max-width: 600px;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.Search:hover {
+  border: 1px solid transparent;
+  background-color: #303134;
+  box-shadow: 20px;
+}
+
+.Search input {
+  background: transparent;
+  border-style: none;
+  color: white;
+  width: 80%;
+  font-size: 18px;
+}
+
+.Search input:focus {
+  outline: none !important;
+}
+
+.E {
+  display: flex;
+  justify-content: center;
+}
+
+.Enter input {
+  width: 150px;
+  height: 36px;
+  background-color: #303134;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  min-width: 60px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 5px;
+  padding: 0 15px;
+  margin-top: 25px;
+}
+
+.Enter input:hover {
+  box-shadow: 0px 0px 1.5px white;
+}
+
+.Offers {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  height: 250px;
+}
+
+.Offers p {
+  display: inline-block;
+  padding: 0 10px;
+  color: white;
+  margin: 0;
+}
+
+.Offers a {
+  color: #8ab4f8;
+  padding: 0 3px;
+  text-decoration: none;
+}
+
+.Offers a:hover {
+  text-decoration: underline;
+}
+
+/*----Middle Container--*/
+/*---bottom container-----*/
+.bottom-container {
+  background-color: #171717;
+  color: #9aa0a6;
+  font: 15px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.info {
+  display: inline-block;
+  padding: 0 10px;
+  padding-top: 10px;
+}
+
+footer hr {
+  size: 2px;
+  margin: 0px;
+}
+
+.End1 {
+  height: 17px;
+  padding: 15px 15px;
+  border-bottom: 1px solid #212327;
+}
+
+.End2 {
+  padding: 0 5px;
+  height: 40px;
+}

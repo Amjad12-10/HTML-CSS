@@ -1,0 +1,31 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400,700;
+    font-size: 13px;
+    text-align: center;
+}
+.background{
+width: 250px;
+height: 400px;
+background-color: hsl(0, 0%, 100%);
+border-radius: 1rem;
+margin: auto;
+margin-top: 16%;
+box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
+}
+.Image{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    padding-top: 10px;
+}
+.Image img{
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.text{
+    width: 90%;
+    margin: auto;
+}
