@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  color: white;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+main{
+  background-color: hsl(244, 38%, 16%);
+  width: 1110px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.preview-image{
+  display: block;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  background-color: hsl(277, 64%, 61%);
+  order: 2;
+  margin-bottom: 40px;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+.mobile{
+  display: none;
+}
+.desktop{
+  display: block;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+.stats-content{
+  margin: 70px 20px 70px 60px;
+  text-align: left;
+}
+.title{
+  font-size: 2.4rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-weight: 700;  
+}
+.desc{
+  font-size: 1.1rem;
+  line-height: 1.75;
+  font-weight: 400;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stats{
+  display:flex;
+  flex-direction:row;
+  justify-content: start;
+}
+.info{
+  font-family: 'Lexend Deca', sans-serif;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.info h2{
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+.info p{
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 780px){
+
+main{
+  background-color: hsl(244, 38%, 16%);
+  width: 310px;
+  height: 780px;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+}
+.preview-image{
+  display: block;
+  width: 100%;
+  height: 240px;
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(277, 64%, 61%);
+  margin-bottom: 40px;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+.mobile{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius:10px 10px 0 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+.desktop{
+display: none;
+}
+.stats-content{
+  margin: 0 25px;
+  text-align: center;
+}
+.title{
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-weight: 700;  
+}
+.desc{
+  font-size: 0.95rem;
+  line-height: 1.75;
+  font-weight: 400;
+  margin: auto;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 30px;
+}
+.stats{
+  display:flex;
+  flex-direction:column;
+}
+.info{
+  font-family: 'Lexend Deca', sans-serif;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.info h2{
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+.info p{
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 0.85rem;
+}
+}
