@@ -12,7 +12,7 @@ body{
 main{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 70%;
     height: 480px;
 }
 .content h2{
