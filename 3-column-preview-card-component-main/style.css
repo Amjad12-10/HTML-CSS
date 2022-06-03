@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 480px;
+}
+.content h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+.content p{
+    margin-bottom: 70px;
+    margin-right: 25px;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.75;
+    font-size: 0.995rem;
+    max-height: 180px;
+}
+.info{
+    margin: 40px;
+}
+.info > *{
+    margin-bottom: 30px;
+}
+.Sedan{
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.SUV{
+    width: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+.Luxury{
+    width: 100%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.btn{
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 3px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.Sedan .btn{
+    color:hsl(31, 77%, 52%);
+}
+.SUV .btn{
+    color: hsl(184, 100%, 22%);
+}
+.Luxury .btn{
+    color: hsl(179, 100%, 13%);
+}
+.Sedan .btn:hover{
+    color: hsl(0, 0%, 95%);
+}
+.SUV .btn:hover{
+    color: hsl(0, 0%, 95%);
+}
+.Luxury .btn:hover{
+    color: hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 500px) {
+    *{
+        margin: 0;
+    }
+    body{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 95%);
+    }
+    main{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 780px;
+    }  
+    .Sedan{
+        width: 100%;
+        border-radius:10px 10px 0 0;
+        background-color: hsl(31, 77%, 52%);
+    }
+    .SUV{
+        width: 100%;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .Luxury{
+        width: 100%;
+        background-color: hsl(179, 100%, 13%);
+        border-radius:0 0 10px 10px;
+
+    } 
+    .content p{
+        margin-bottom: 40px;
+    }
+}
+
