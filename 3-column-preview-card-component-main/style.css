@@ -1,128 +1,108 @@
-* {
+*{
     margin: 0;
+    padding: 0;
 }
 body{
-    display: flex;
     width: 100%;
-    height: 100vh;
-    justify-content: center;
+    min-height: 100vh;
+    display: flex;
     align-items: center;
-    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }
 main{
+    width: 300px;
     display: flex;
-    flex-direction: row;
-    width: 1100px;
-    height: 480px;
+    flex-direction: column;
+    margin: 30px auto;
 }
-.content h2{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: hsl(0, 0%, 95%);
+.car{
+    padding:3rem;
 }
-.content p{
-    margin-bottom: 70px;
-    margin-right: 25px;
-    color: hsla(0, 0%, 100%, 0.5);
-    font-family: 'Lexend Deca', sans-serif;
-    line-height: 1.75;
-    font-size: 0.95rem;
-    max-height: 180px;
+.sedan{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
 }
-.info{
-    margin: 40px;
-}
-.info > *{
-    margin-bottom: 30px;
-}
-.Sedan{
-    max-width: 367px;
-
-    border-radius: 10px 0 0 10px;
-    background-color: hsl(31, 77%, 52%);
-}
-.SUV{
-    max-width: 367px;
+.suv{
     background-color: hsl(184, 100%, 22%);
 }
-.Luxury{
-    max-width: 367px;
+.luxury{
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 10px 10px;
 }
-.btn{
-    display: block;
-    background-color: hsl(0, 0%, 95%);
-    width: 50%;
-    height: 50px;
-    border: 0;
-    border-radius: 50px;
-    font-family: 'Lexend Deca', sans-serif;
+h1{
+    padding: 1.2rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
     font-weight: 700;
-    font-size: 0.875rem;
 }
-.btn:hover{
+p{
+    padding: 1.2rem 0;
+    font-size: 0.825rem;
+    line-height: 1.75;
+    font-weight: 100;
+    width: 100%;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 25px;
+    border: 0 solid transparent;
+    width: 140px;
+    height: 45px;
+}
+button:hover{
+    border: 3px solid white;
     background-color: transparent;
-    border: 3px solid hsl(0, 0%, 95%);
-    cursor: pointer;
+    color: white;
 }
-.Sedan .btn{
-    color:hsl(31, 77%, 52%);
+.sedan button{
+    color: hsl(31, 77%, 52%);
 }
-.SUV .btn{
-    color: hsl(184, 100%, 22%);
+.sedan button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
 }
-.Luxury .btn{
-    color: hsl(179, 100%, 13%);
+.suv button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
 }
-.Sedan .btn:hover{
-    color: hsl(0, 0%, 95%);
+.luxury button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
 }
-.SUV .btn:hover{
-    color: hsl(0, 0%, 95%);
-}
-.Luxury .btn:hover{
-    color: hsl(0, 0%, 95%);
-}
-@media screen and (max-width: 1200px) {
-    *{
-        margin: 0;
-    }
-    body{
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        background-color: hsl(0, 0%, 95%);
-    }
+@media only screen and (min-width: 950px){
     main{
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        max-width: 350px;
-        height: 780px;
-        margin-top: 50px;
-    }  
-    .Sedan{
-        width: 350px;
-        border-radius:10px 10px 0 0;
-        background-color: hsl(31, 77%, 52%);
+        width: 925px;
+        margin: 0 auto;
+        flex-direction:row;
     }
-    .SUV{
-        width: 350px;
-        background-color: hsl(184, 100%, 22%);
+    .sedan{
+        border-radius: 10px 0 0 10px;
     }
-    .Luxury{
-        width: 350px;
-        background-color: hsl(179, 100%, 13%);
-        border-radius:0 0 10px 10px;
-
-    } 
-    .content p{
-        margin-bottom: 40px;
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 0.85rem;
+        line-height: 1.75;
+        font-weight: 100;
+        min-height: 150px;
+        color:hsla(0, 0%, 100%, 0.75);
+    }
+    button{
+        font-family: 'Lexend Deca', sans-serif;
+        border-radius: 25px;
+        border: 0 solid transparent;
+        width: 140px;
+        height: 45px;
     }
 }
-
