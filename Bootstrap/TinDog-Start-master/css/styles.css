@@ -1,28 +1,35 @@
-#title{
-    background-color: #ff4c68;
-    color: white;
-}
+/* Default CSS */
 body{
     font-family: 'Montserrat', sans-serif;
 }
-h1{
+h1, h2, h3, h4 {
     font-weight: bold;
+}
+h1{
     font-size: 3.5rem;
 }
 h2{
-    font-weight: bold;
     font-size: 3rem;
     color: black;
 }
 h3{
     font-size: 1rem;
-    font-weight: 550;
 }
 em{
     font-size: 1rem;
     font-weight: bold;
     color: white;
 }
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Title */
 .main{
     font-size: 3rem;
     line-height: 1.5;
@@ -33,7 +40,7 @@ em{
     color: white;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 /* navbar element */
 .navbar{
@@ -59,14 +66,21 @@ em{
     margin: 5% 3% 5% 0;
 }
 .titleImage{
-width: 60%;
-transform: rotate(25deg);
+    width: 20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 25%;
 }
 
 /* second section */
 #features{
     text-align: center;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+
 }
 .icon{
     color: #ef8172;
@@ -109,4 +123,34 @@ transform: rotate(25deg);
 }
 .pricing-col{
     padding: 3% 2%;
+}
+/* cta*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta_header{
+    font-size: 3.5rem;
+    color: white;
+    padding: 5% 15% 0;
+}
+
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+.f_btn{
+    padding: 0 0.5% 2%;
+    color: black;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        transform: rotate(0);
+        position:static;
+        width: 60%;
+    }
+
 }
