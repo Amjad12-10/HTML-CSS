@@ -12,31 +12,35 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 h1{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
 }
 p{
-    font-size: 1.25rem;
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
 }
 /* Section */
 .QR-background{
-    width: 375px;
+    width: 300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
 /* image and context */
 .context, .image{
     width: 90%;
-    margin: 5%;
 }
 .image{
     border-radius: 15px;
+    margin: 5% 5% 0;
 }
 .context{
     text-align: center;
+    margin: 2% 5%;
 }
 .context h1,p{
-    padding: 15px 0;
+    padding: 10px 0;
 }
+
 
 /*
 test 1 - 
