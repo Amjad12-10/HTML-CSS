@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+h1{
+    font-size: 1.75rem;
+}
+p{
+    font-size: 1.25rem;
+}
+/* Section */
+.QR-background{
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+/* image and context */
+.context, .image{
+    width: 90%;
+    margin: 5%;
+}
+.image{
+    border-radius: 15px;
+}
+.context{
+    text-align: center;
+}
+.context h1,p{
+    padding: 5% 0;
+}
+
+/*
+test 1 - 
 body{
     background-color:hsl(212, 45%, 89%);
     margin: 0;
@@ -7,13 +49,13 @@ body{
     text-align: center;
 }
 .background{
-width: 250px;
-height: 400px;
-background-color: hsl(0, 0%, 100%);
-border-radius: 1rem;
-margin: auto;
-margin-top: 16%;
-box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 16%;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
 }
 .Image{
     width: 90%;
@@ -29,3 +71,4 @@ box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
     width: 90%;
     margin: auto;
 }
+*/
