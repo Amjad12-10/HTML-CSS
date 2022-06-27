@@ -6,4 +6,4 @@
 - project 5 : https://amjad12-10.github.io/Web-Developement_Projects/FrontEndMentor/Stats-preview-card-component-main 
 - project 5 : https://amjad12-10.github.io/Web-Developement_Projects/FrontEndMentor/3-column-preview-card-component-main
 - project 6 : https://amjad12-10.github.io/Web-Developement_Projects/FrontEndMentor/profile-card-component-main
-- project 6 : https://amjad12-10.github.io/Web-Developement_Projects/FrontEndMentor/product-preview-card-component-main
+- project 7 : https://amjad12-10.github.io/Web-Developement_Projects/FrontEndMentor/product-preview-card-component-main
