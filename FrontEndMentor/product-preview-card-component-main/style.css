@@ -1,0 +1,85 @@
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+p{
+  line-height: 1.75;
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+.sub-heading{
+  letter-spacing: 4px;
+  margin: 2px 0;
+}
+h1, h2{
+  margin: 10px 0;
+  font-family: 'Fraunces', serif;
+}
+.main{
+  width: 375px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 0 .5rem .5rem;
+}
+.image-main{
+  width: 100%;
+  border-radius: .5rem .5rem 0 0;
+}
+.desktop{
+display: none;
+}
+.mobile{
+  display: flex;
+  width: 100%;
+}
+.Bottom-Section{
+  padding: 2rem 1.75rem;
+}
+.Pricing{
+  display: flex;
+}
+.Pricing h2{
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color:  hsl(158, 36%, 37%);
+}
+.Pricing p{
+  text-decoration: line-through;
+}
+button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: 0 solid;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+button:hover{
+  background-color:  hsl(212, 21%, 14%);
+}
+button img{
+  margin: 0 0.75rem;
+}
+@media only screen and (min-width: 1000px) {
+  .desktop{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem 0 0 .5rem;
+    }
+    .mobile{
+      display: none;
+    }
+    .main{
+      width: 650px;
+      border-radius: 0 .5rem .5rem 0;
+    }
+}
