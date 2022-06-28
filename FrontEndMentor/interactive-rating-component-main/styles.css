@@ -1,0 +1,102 @@
+*{
+    border: 0 solid transparent;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.hidden{
+    display: none;
+}
+
+/*RATING*/
+.Card{
+    width: 320px;
+    background-color: hsl(213, 19%, 18%);
+    /*Centering Elements*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    /*Text*/
+    text-align: left;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+.star img{
+    background-color: hsla(217, 12%, 63%, 0.075);
+    border-radius: 100%;
+    padding: 1rem;
+}
+h1{
+    color:hsl(0, 0%, 100%);
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn{
+    background-color: hsla(217, 12%, 63%, 0.075);
+    border: 0;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color:hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    transform: scale(1.2) perspective(1px);
+    color: #fff;
+}
+.btn:focus{
+    background-color: hsl(25, 97%, 53%);
+    transform: scale(1.2) perspective(1px);
+    color: #fff;
+}
+.Submit{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    width: 100%;
+    margin: 1.5rem 0 0.5rem 0;
+    color:hsl(0, 0%, 100%);
+    padding: 0.75rem;
+    letter-spacing: 0.15rem;
+}
+.Submit:hover{
+    transform: scale(1.05) perspective(1px);
+}
+.Submit:focus{
+    transform: scale(1.05) perspective(1px);
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(0, 0%, 100%);
+}
+.context{
+    margin: 1.5rem 0;
+}
+/*THANK YOU*/
+.ThankYou{
+    text-align: center;
+}
+.result{
+    background-color: hsla(217, 12%, 63%, 0.075);
+    border-radius: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    color: hsl(25, 97%, 53%);
+}
+h4{
+    padding: 10px;
+}
+.thankText p{
+    font-weight: 700;
+    font-size: 13.5px;
+}

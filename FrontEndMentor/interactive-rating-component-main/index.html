@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--ZUC-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!--links-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!--Card-->
+  <section class="Card">
+    <!--Rating Section-->
+    <div class="Rating">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="icon-star">
+      </div>
+      <div class="context">
+        <h1>How did we do?</h1>
+        <p id="test">Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </div>
+      <div class="btns">
+        <button class="btn 1">1</button>
+        <button class="btn 2">2</button>
+        <button class="btn 3">3</button>
+        <button class="btn 4">4</button>
+        <button class="btn 5">5</button>
+      </div>
+      <button class="Submit">SUBMIT</button>
+    </div>
+    <!--Greeting Section-->
+    <div class="ThankYou hidden">
+        <img src="images/illustration-thank-you.svg" alt="ThankYou">
+        <div class="result">
+        <h4>You selected 4 out of 5</h4> 
+        </div>
+        <div class="thankText">
+        <h1>Thank you!</h1> 
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
